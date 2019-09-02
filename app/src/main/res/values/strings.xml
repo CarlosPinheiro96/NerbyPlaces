@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nearby Places</string>
+    <string name="title_activity_maps">Nearby Places</string>
+    <string name="google_places_key">AIzaSyCHOaS_2VU4s9jcnOKl5TXYxs6T5mvsM20</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="caf_s">Cafés</string>
+    <string name="hoteis">Hoteis</string>
+    <string name="pastelaria">Pastelarias</string>
+</resources>
