@@ -22,7 +22,9 @@
         android:src="@drawable/resta"
         android:background="@drawable/resta"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="30dp"/>
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        />
 
     <TextView
         android:id="@+id/textorest"
@@ -36,14 +38,15 @@
 
 
     <ImageButton
-        android:layout_toEndOf="@id/button2"
         android:id="@+id/button3"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:src="@drawable/cafes"
         android:background="@drawable/cafes"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="60dp"/>
+        android:layout_alignLeft="@id/button2"
+        android:layout_marginLeft="100dp"
+        />
 
     <TextView
         android:id="@+id/textocafe"
@@ -54,19 +57,23 @@
         android:textColor="#FFFFFF"
         android:textSize="15sp"
         android:layout_toEndOf="@id/textorest"
-        android:layout_marginStart="28dp"/>
+        android:layout_alignLeft="@id/textorest"
+        android:layout_marginLeft="120dp"
+        />
 
 
 
     <ImageButton
-        android:layout_toEndOf="@id/button3"
+
         android:id="@+id/button4"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:src="@drawable/hotel"
         android:background="@drawable/hotel"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="60dp"/>
+        android:layout_alignRight="@id/button5"
+        android:layout_marginRight="100dp"
+        />
 
     <TextView
         android:id="@+id/textohoteis"
@@ -76,30 +83,34 @@
         android:layout_below="@+id/button4"
         android:textColor="#FFFFFF"
         android:textSize="15sp"
-        android:layout_toEndOf="@id/textocafe"
-        android:layout_marginStart="53dp"/>
+        android:layout_alignRight="@id/textopastelaria"
+        android:layout_marginRight="105dp"
+        />
 
 
 
     <ImageButton
-        android:layout_toEndOf="@id/button4"
         android:id="@+id/button5"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:src="@drawable/pastelaria"
         android:background="@drawable/pastelaria"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="60dp"/>
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        />
 
     <TextView
+        android:id="@+id/textopastelaria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/pastelaria"
         android:layout_below="@+id/button5"
         android:textColor="#FFFFFF"
         android:textSize="15sp"
-        android:layout_toEndOf="@id/textohoteis"
-        android:layout_marginStart="30dp"/>
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        />
 
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
